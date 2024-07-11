@@ -1,0 +1,22 @@
+.scrollBand {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  background-color: var(--main-neon-green);
+  font-size: 4em;
+  font-weight: 900;
+
+  .motionText {
+    white-space: nowrap;
+    margin-left: 25px;
+    -webkit-text-stroke: 2px #000;
+    color: transparent;
+
+    span {
+      margin-right: 40px;
+    }
+  }
+}
