@@ -29,7 +29,7 @@ export default function Home() {
           ORDINARY"
         iconHex="&#x2632;"
       />
-      <Coaching />
+      {/* <Coaching /> */}
     </main>
   );
 }
